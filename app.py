@@ -28,7 +28,7 @@ if __name__ == "__main__":
     #print(myStr)
     myList = myStr.split('\n\n')
     #print(myList)
-    check = ['Odisha']
+    check = ['Madhya Pradesh']
     for item in myList[0:34]:
         item = item.split('\n')
         #print(item)
