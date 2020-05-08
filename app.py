@@ -28,12 +28,12 @@ if __name__ == "__main__":
     #print(myStr)
     myList = myStr.split('\n\n')
     #print(myList)
-    check = ['Madhya Pradesh']
-    for item in myList[0:33]:
+    check = ['Odisha']
+    for item in myList[0:34]:
         item = item.split('\n')
         #print(item)
         if item[1] in check:
-            title = item[1]
-            message = f"Cases : {item[2]}\nRecovered : {item[3]}\nDeaths : {item[4]}"
+            title = "COVID-19 Cases Updates:"
+            message = f"State : {item[1]}\nCases : {item[2]}\nRecovered : {item[3]}\nDeaths : {item[4]}"
             notifyme(title, message)
     
