@@ -33,7 +33,7 @@ if __name__ == "__main__":
         item = item.split('\n')
         #print(item)
         if item[1] in check:
-            title = "COVID-19 Cases Updates:"
+            title = "COVID-19 Updates:"
             message = f"State : {item[1]}\nCases : {item[2]}\nRecovered : {item[3]}\nDeaths : {item[4]}"
             notifyme(title, message)
     
